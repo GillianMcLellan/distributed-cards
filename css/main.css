@@ -36,4 +36,20 @@ ol li {
   background-color: #ede3bd;
   border: 2px #623b0c solid;
   padding: 1rem;
+  border-radius: 8px;
+}
+
+a {
+  color: #fff;
+  background-color: #623b0c;
+  padding: .6em;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+ol {
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
