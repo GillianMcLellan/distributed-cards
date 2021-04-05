@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  background-color: #f5f2f0;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+/* - *Typefaces:* `Georgia`, `Denk One`
+- *Line-heights:* `1.5`
+- *Colours:* `#fff`, `#f5f2f0`, `#ede3db`, `#623b0c`, `#000`
+- *Margins:* `1.5rem`
+- *Paddings:* `.5em .75em .6em`, `1rem`
+- *Gaps:* `1rem`
+- *Border-thicknesses*: `2px`
+- *Corner-radii:* `8px` */
+
+body {
+  background-color: #f5f2f0;
+}
+
+h1, h2 {
+  color: #623b0c;
+  font-family: "Denk One", sans-serif;
+
+}
+
+img {
+  width: 100%;
+}
+
+ol li {
+  list-style-type: none;
+  background-color: #ede3bd;
+  border: 2px #623b0c solid;
+  padding: 1rem;
+}
