@@ -20,12 +20,13 @@ html {
 
 body {
   background-color: #f5f2f0;
-  margin: 1rem;
+  margin: 0;
 }
 
 h1 {
   color: #623b0c;
   font-family: "Denk One", sans-serif;
+  margin: 1rem 1rem 1.5rem;
 }
 
 h2 {
@@ -64,4 +65,10 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
+  margin: 0 1rem;
+}
+
+li p {
+  margin: 1.5rem 0;
+  flex-grow: 1;
 }
